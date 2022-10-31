@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-4 mt-5 border  bg-light " style="width: 419px;height: 500px;">
+        <div style="
+        background-color: dodgerblue;height: 200px;margin-top: -48px;width: 418px; margin-left: -13px;color: white;">
+        <h1 class="mt-5 mb-4 text-center">E Finance Bank</h1>
+        <img id="logo" src="../../assets/image/banklogo.webp" alt="">
+        </div>
+        <form action="" class="p-5" style="margin-left: -49px;">
+            <h6>{{aim}}</h6>
+            <input type="text" (change)="acnoChange($event)" id="login_accno" class="form-control " placeholder="Account Number">
+            <input type="password" (change)="pswdChange($event)" id="login_pass" class="form-control mt-2" placeholder="Password">
+            <div class="d-grid gap-2">
+                <input type="button" value="Sign in" (click)="logIn()"  class="btn btn-primary mt-3" onclick="login()" style="margin-left: 131px;width: 138px;">
+            </div>
+            <div class="mt-4 " style="margin-left: 67px;">
+                <a href="" id="links">Forget Password</a>
+            or
+            <a href="signup.html" id="links">sign up</a>
+
+            </div>
+            
+        </form>    
+    </div>
+    <div class="col-4"></div>
+</div>
+
